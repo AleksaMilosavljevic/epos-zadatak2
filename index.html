@@ -8,5 +8,43 @@
 </head>
 <body>
     <h1>Hello world!</h1>
+    
+     <section class="login-page">
+        <div class="form">
+            <form class="register-form">
+                 <input type="text" placeholder="Name:">
+                 <input type="password" placeholder="Password:">
+                 <input type="email" placeholder="Email:">
+                 <button>Create</button>
+                 <p class="message">Already Registered? <a href='#'>Login</a></p>
+            </form>
+            
+            <form class="login-form">
+                <input type="text" placeholder="Username">
+                <input type="password" placeholder="Password">
+                <button>Login</button>
+                <p class="message">Not Registered? <a href="#">Sign up</a></p>
+            </form>
+        </div>
+    </section>
+
+     <section class="about-page">
+        <h2 class="heading-secondary">O NAMA</h2>
+        <div class="feature-box">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores accusamus pariatur perspiciatis placeat iusto cupiditate, quibusdam obcaecati saepe unde magnam? Ducimus alias 
+            nobis adipisci explicabo fugit sed, at ex quae?<hr>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint voluptatem deserunt quisquam, sunt repudiandae porro modi, blanditiis quo sequi quis ab optio fugiat inventore officia adipisci reiciendis
+           repellat tenetur iste!
+        </div>
+    </section>
+    
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js">       
+    </script>
+    <script>
+         $('.message a').click(function(){
+            $('form').animate({height:"toggle", opacity:"toggle"}, 'slow');
+        });
+    </script>
 </body>
 </html>
