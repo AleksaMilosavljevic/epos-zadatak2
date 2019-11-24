@@ -1,0 +1,134 @@
+body{
+   margin: 0;
+    
+    
+}
+
+.login-page {
+   
+    padding: 10% 0 0;
+    margin: auto;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(img/img1.jpg);
+    height: 80vh;
+    background-size: cover ;
+    background-position: center;
+    background-attachment: fixed; 
+    
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background: rgba(110, 108, 108, 0.8);
+    border-radius: 50px;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+}
+
+.form input {
+    font-family: Arial, Helvetica, sans-serif;
+    outline: 1;
+    background: #f2f2f2;
+    width: 100%;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    
+}
+
+.form button {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    outline: 1;
+    background: #4caf50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.form button:hover ,.form button:active {
+    background: #43a047;
+}
+
+.form .message {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 0 15px ;
+    color: #000000;
+    font-size: 16px;
+}
+
+.form .message a {
+    color: #4caf50;
+    text-decoration: none;
+}
+
+.form .register-form {
+    display: none;
+}
+
+.about-page{
+    background-color: #ececec;
+    padding: 5% 0 5%;
+    height: 80vh;
+}
+
+.feature-box {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0% auto;
+    background-color: rgba(196, 196, 196, 0.8);
+    font-size: 1.5rem;
+    padding: 2.5rem;
+    text-align: justify;
+    border-radius: 50px;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+    width: 50%;
+    transition: transform .5s; 
+}
+
+.feature-box:hover {
+    transform: translateY(1.5rem) scale(1.06); 
+}
+
+.heading-secondary{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    display: inline-block;
+    text-align: center;
+    color: #43a047;
+    width: 100%;
+}
+
+/*
+.heading-secondary:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+    10%, 90% {
+     transform: translate3d(-1px, 0, 0);
+    }
+  
+    20%, 80% {
+     transform: translate3d(2px, 0, 0);
+    }
+
+    30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+    }
+
+    40%, 60% {
+     transform: translate3d(4px, 0, 0);
+    }
+}
+
+*/
